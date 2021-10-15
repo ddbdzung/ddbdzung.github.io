@@ -1,0 +1,13 @@
+h2 {
+    color: red;
+    text-align: center;
+}
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+th, 
+td {
+    border: 1px solid black ;
+    text-align: center;
+}
