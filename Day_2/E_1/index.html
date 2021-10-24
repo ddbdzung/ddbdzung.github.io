@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,8 +17,9 @@
         <div class="login-container">
             <div class="login-ref">
                 <div class="login-ref-title">Log in</div><br>
-                <button class="login-ref-google">G Log in with Google</button>
-            </div><br>
+                <button class="login-ref-google"><i class="fab fa-google"></i> Log in with Google</button>
+            </div>
+            <br>
             <hr>
             <br>
             <div class="login-text">
@@ -26,14 +30,26 @@
                     <br><input type="text" name="password" id="password"><br>
                     <br><input type="checkbox" name="remember_me" id="remember_me" value="remember_me">
                     <label for="remember_me">Remember me</label><br>
-                    <br><input type="submit" value="Log in" id="login-button"><br>                
+                    <br><input type="submit" value="Log in" id="login-button"><br>
                 </form>
                 <br>
                 <div>
                     <a href="#" id="fp">Forgot Password?</a>
                 </div>
             </div>
-        </div>  
+            <br>
+            <hr>
+            <br>
+            <div class="login-signin">
+                <div id="login-signin-des">
+                    Don't have an account?
+                </div>
+                <br>
+                <div id="login-signin-link">
+                    <a href="#" id="su">Sign up</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
