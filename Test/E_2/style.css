@@ -25,6 +25,12 @@
     border-top-right-radius: 15px;
 }
 
+.bd {
+    display: block;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
 .login-container-body-choice {
     padding: 10px 10px;
     background-color: aliceblue;
