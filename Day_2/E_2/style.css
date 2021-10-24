@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    height: 1080px;
+    background: url(1.jpg);
+}
+
+.login-container {
+    background-color: white;
+    width: 350px;
+    height: 525px;
+    border-radius: 15px;
+}
+
+#login-container-header-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.login-container-body-choice {
+    padding: 10px 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.login-container-body-choice>div {
+    margin: 5px 5px;
+}
+#musik-icon {
+    padding-top: 13px;
+    padding-left: 5px;
+}
+
+#change-link {
+    padding-top: 13px;
+}
+
+.ptp {
+    background-color: rgba(0, 68, 255, 0.993);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#co {
+    display: block;
+    color: grey;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
