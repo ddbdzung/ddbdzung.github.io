@@ -1,56 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-    <div class="background">
+    <div class="background-container">
         <div class="login-container">
-            <div class="login-ref">
-                <div class="login-ref-title">Log in</div><br>
-                <button class="login-ref-google"><i class="fab fa-google"></i> Log in with Google</button>
+            <div class="login-container-header">
+                <img id="login-container-header-img" src="2.jpg" alt="">
             </div>
             <br>
-            <hr>
-            <br>
-            <div class="login-text">
-                <form action="">
-                    <label for="email"><strong>Email</strong></label><br>
-                    <br><input type="text" name="email" id="email"><br>
-                    <br><label for="password"><strong>Password</strong></label><br>
-                    <br><input type="text" name="password" id="password"><br>
-                    <br><input type="checkbox" name="remember_me" id="remember_me" value="remember_me">
-                    <label for="remember_me">Remember me</label><br>
-                    <br><input type="submit" value="Log in" id="login-button"><br>
-                </form>
+            <div class="login-container-body">
+                <div class="login-container-body-text">
+                    <div style="display: flex; justify-content: center; font-weight: bold; font-size: 24px;">
+                        Order Summary
+                    </div>
+                    <br>
+                    <p style="display: flex; text-align: center;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aperiam praesentium voluptates a veritatis quis eius excepturi, 
+                        id quisquam ut tempora delectus et.
+                    </p>
+                </div>
+                <br>
+                <div class="bd">
+                    <div class="login-container-body-choice">
+                        <i class="fa-solid fa-music" id="musik-icon"></i>
+                        <div>
+                            <strong>Annual Plan</strong><br>
+                            $59.99/year
+                        </div>
+                        <a id="change-link" href="#">Change</a>
+                    </div>
+                </div>
                 <br>
                 <div>
-                    <a href="#" id="fp">Forgot Password?</a>
-                </div>
-            </div>
-            <br>
-            <hr>
-            <br>
-            <div class="login-signin">
-                <div id="login-signin-des">
-                    Don't have an account?
-                </div>
-                <br>
-                <div id="login-signin-link">
-                    <a href="#" id="su">Sign up</a>
+                    <button class="ptp">
+                        Process to Payment
+                    </button>
+                    <br>
+                    <div><a id="co" href="#">Cancel Order</a></div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-
 </html>
