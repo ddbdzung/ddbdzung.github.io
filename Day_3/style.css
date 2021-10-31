@@ -146,7 +146,7 @@ footer {
 .avatar-container {
     display: flex;
     flex-direction: row;
-    flex-basis: 50%;
+    margin-right: 3rem;
 }
 
 .avatar-series {
