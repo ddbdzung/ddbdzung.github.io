@@ -6,21 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        // var n = prompt("Nhập số phần tử: ");
-        // var mang = new Array(n);
-        // for (var i = 0; i < n; i++) {
-            // mang[i] = prompt("Nhập phần tử thứ " + i + ":");
-        // }
         var mang = prompt("Nhập chuỗi kí tự bất kì: ");
         var joiner = mang;
         var n = joiner.length;
-        // alert(n);
         var n1 = 256;
         var temp = new Array(n1);
         for (var i = 0; i < n1; i++) {
             temp[i] = 0;
         }
-        // var joiner = mang.join("");
         
         for (var i = 0; i < n; i++) {
             temp[parseInt(joiner.charCodeAt(i))] = temp[parseInt(joiner.charCodeAt(i))] + 1;
