@@ -64,6 +64,7 @@ body {
     height: 50%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    padding: 8px;
 }
 
 #img-clone {
@@ -92,6 +93,13 @@ body {
     grid-column: 3 / span 1;
 }
 
+.old-price, .new-price {
+    text-align: center;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
 
 .sidebar {
     grid-column: 7 / span 3;
