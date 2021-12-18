@@ -1,0 +1,16 @@
+/*
+    #Heading___ Chọn mục hiện đang Code để tô đen
+    .subnav-___ Chọn menu cấp 2 để tô trắng trang đầu
+*/
+
+.heading:not(#Heading___) {
+    color: #757575 !important;
+}
+
+.left-header .nav .subnav > a {
+    color: #9f9f9f !important;
+}
+
+.left-header .nav .subnav-___ a:first-child {
+    color: #fff !important;
+}

@@ -1,0 +1,147 @@
+.mid{
+  width: 100%;
+}
+.mid_img{
+  display: flex;
+  
+}
+.mid_img_left , .mid_img_right{
+  display: block;
+  width: 50%;
+}
+.mid_img_left img{
+  width: 100%;
+  margin-top: -4px;
+
+}
+.mid_img_right img{
+  width: 100%;
+  margin-top: -4px;
+}
+.mickey {
+  text-align: center;
+}
+.mickey , .marvel , .pri , .star , .pixar , .fro {
+  overflow: hidden;
+  margin-top: -4px;
+}
+.mickey_logo img{
+  width: 150px;
+}
+.mickey_logo{
+  margin-top: -99px;
+}
+  .pri{
+    text-align: center;
+  }
+.pri_logo img{
+  width: 150px;
+}
+.pri_logo{
+  margin-top: -70px; 
+  margin-left: 300px;
+}
+.star_logo img{
+  width: 150px;
+}
+.star_logo{
+  margin-top: -70px; 
+  margin-left: 30px;
+}
+
+.pixar_logo img{
+  width: 250px;
+}
+.pixar_logo{
+  margin-top: -47px; 
+  margin-left: 30px;  
+}
+.marvel_logo img{
+  width: 150px;
+}
+.marvel_logo{
+  margin-top: -68px; 
+  margin-left: 530px;  
+}
+.fro_logo img{
+  width: 250px;
+}
+.fro_logo{
+  margin-top: -94px; 
+  margin-left: 30px;  
+}
+
+
+.mid_img img , .mid_td_img img {
+  transition: all .3s ease;}
+.mid_img img:hover{
+  -webkit-transform: scale(1); transform: scale(1.1);
+}
+.mid_td_img img:hover{
+  -webkit-transform: scale(1); transform: scale(1.1);
+}
+.mid_trending{
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.td1{
+  overflow: hidden;
+}
+.mid_td_text{
+  font-size: 25px;
+}
+.mid_td_img{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.mid_td_img img{
+  width: 500px;
+  height: 500px;
+}
+.mid_td_img .td1_text{
+  color: rgb(32, 120, 197);
+  font-size: 20px;
+  margin-top: -50px;
+}
+.mid_td_text1{
+  margin-top: 120px;
+  font-size: 27px;
+}
+
+.mid_shop{
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgb(189, 189, 189)
+}
+.shop1{
+  display: flex;
+  text-align: center;
+}
+.shop1 img{
+  margin-top: 30px;
+  width: 90%;
+  background-color: rgb(255, 245, 245);
+}
+.box{
+  background-color: rgb(255, 255, 255);
+  width: 22%;
+  margin: 30px 20px;
+  border-radius: 20px;
+  height: 600px;
+  display: block;
+}
+.box button{
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 20px
+}
+button:hover{
+  background-color: aqua;
+}
+.box p{
+  margin-top: 10px;
+}
