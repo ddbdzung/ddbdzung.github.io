@@ -5,32 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        var n = prompt("Nhập số phần tử: ");
-        var mang = new Array(n);
-        for (var i = 0; i < n; i++) {
-            mang[i] = prompt("Nhập phần tử thứ " + i + ":");
+    <style>
+        container > .box {
+            color: red;
         }
-        var max = 0;
-        var n1 = 256;
-        var temp = new Array(n1);
-        for (var i = 0; i < n1; i++) {
-            temp[i] = 0;
-        }
-        var joiner = mang.join("");
-        
-        for (var i = 0; i < n; i++) {
-            temp[parseInt(joiner.charCodeAt(i))] = temp[parseInt(joiner.charCodeAt(i))] + 1;
-        }
-
-        for (var i = 0; i < n1; i++) {
-            if (temp[i] > 0) {
-                document.write(String.fromCharCode(i) + " xuất hiện " + temp[i] + " lần <br>");
-            }
-        }
-    </script>
+    </style>
 </head>
 <body>
+    <div>
+        <div class="container">
+            <div>
+                <div class="box">A box</div>
+            </div>
+        </div>
+    </div>
+    
+    
     
 </body>
 </html>
