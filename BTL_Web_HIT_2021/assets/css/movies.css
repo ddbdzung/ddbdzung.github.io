@@ -54,7 +54,7 @@ transform: scale(1.03);
 
 .sub-slider #text-content-movies-first {
     padding-top: 29%;
-    background-image: url("/images/enternal.png");
+    background-image: url("../lib/movies/eternal.png");
     background-repeat: no-repeat;
     background-size: contain;
     animation-name: enternal-slider;
