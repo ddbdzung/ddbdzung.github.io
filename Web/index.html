@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-[#f8f9fa] relative">
+    <!-- Navigation menu -->
+    <nav id="nav-home" class="NAV_ONTOP ease duration-300 flex flex-row min-h-[4rem] top-0 left-0 right-0 fixed z-10">
+        <div class="basis-1/4 flex flex-row justify-center items-center pl-24">
+            <a class="inline-block text-xl font-semibold" href="#home">Start
+                Bootstrap</a>
+        </div>
+        <div class="basis-3/4 flex flex-row justify-end items-center gap-8 pr-24">
+            <a id="about_link" class="inline-block text-lg font-semibold" href="#about">About</a>
+            <a id="services_link" class="inline-block text-lg font-semibold" href="#services">Services</a>
+            <a id="portfolio_link" class="inline-block text-lg font-semibold" href="#portfolio">Portfolio</a>
+            <a id="contact_link" class="inline-block text-lg font-semibold" href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Start Bootstrap -->
+        <!-- Container -->
+        <section id="home" class="h-screen bg-[url('./bg-startbootstrap.jpg')] bg-cover">
+            <!-- Coverage layer -->
+            <div class="h-full bg-[#5c4d42] opacity-80">
+                <!-- Content -->
+                <div class="h-full pt-16 px-24 flex flex-col justify-center items-center">
+                    <div class="m-36 flex flex-col">
+                        <div class="flex flex-col justify-center items-center gap-4 mx-4">
+                            <h1 class="text-white text-center font-semibold text-[3rem] leading-none">
+                                Your Favorite Place for Free Bootstrap Themes
+                            </h1>
+                            <hr class="w-16 bg-[#f4623a] h-1 my-4" />
+                        </div>
+                        <div class="flex flex-col justify-center items-center gap-4 mx-4">
+                            <p class="text-white opacity-70 text-center text-xl mb-2">
+                                Start Bootstrap can help you build better websites using the
+                                Bootstrap framework! Just download a theme and start
+                                customizing, no strings attached!
+                            </p>
+                            <a class="p-4 bg-[#f4623a] hover:bg-orange-700 active:ring-4 active:ring-orange-800 text-white font-bold text-lg border-none rounded-3xl uppercase mt-2"
+                                href="#">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <!-- Container -->
+        <section id="about" class="py-32 bg-[#f4623a]">
+            <!-- Content -->
+            <div class="h-full px-32 flex flex-col justify-center items-center">
+                <div class="flex flex-col mx-16 px-6">
+                    <div class="flex flex-col justify-center items-center gap-4 mx-4">
+                        <h1 class="text-white text-center font-semibold text-[2rem] leading-none">
+                            We've got what you need!
+                        </h1>
+                        <hr class="w-16 bg-white h-1 my-4" />
+                    </div>
+                    <div class="flex flex-col justify-center items-center gap-4 mx-4">
+                        <p class="text-white opacity-80 text-center text-base mb-2">
+                            Start Bootstrap has everything you need to get your new website up and running in no
+                            time! Choose one of our open source, free to download, and easy to use themes! No
+                            strings attached!
+                        </p>
+                        <a class="p-4 bg-white active:ring-4 active:ring-slate-400 text-black font-bold text-base border-none rounded-3xl uppercase mt-2"
+                            href="#">Get started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <!-- Container -->
+        <section id="services" class="py-24 bg-white">
+            <!-- Content -->
+            <div class="h-full px-24 flex flex-col justify-center items-center">
+                <div class="mx-18 flex flex-col">
+                    <div class="flex flex-col justify-center items-center gap-4 mx-4">
+                        <h1 class="text-black text-center font-semibold text-[2rem] leading-none">
+                            At Your Service
+                        </h1>
+                        <hr class="w-16 bg-[#f4623a] h-1 my-4" />
+                    </div>
+
+                    <div class="flex flex-row items-center gap-12 mt-4">
+                        <div class="flex flex-col justify-center items-center p-4 gap-2">
+                            <div class="my-0 mx-auto w-12 h-12">
+                                <img class="h-full w-full" src="./gem-solid.svg" alt="">
+                            </div>
+                            <div class="text-[1.35rem] text-center">
+                                Sturdy Themes
+                            </div>
+                            <div class="text-[#6c757d] text-base text-center">
+                                Our themes are updated regularly to keep them bug free!
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col justify-center items-center p-4 gap-2">
+                            <div class="my-0 mx-auto w-12 h-12">
+                                <img class="h-full w-full" src="./laptop-solid.svg" alt="">
+                            </div>
+                            <div class="text-[1.35rem] text-center">
+                                Up to Date
+                            </div>
+                            <div class="text-[#6c757d] text-base text-center">
+                                All dependencies are kept current to keep things fresh.
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col justify-center items-center p-4 gap-2">
+                            <div class="my-0 mx-auto w-12 h-12">
+                                <img class="h-full w-full" src="./globe-solid.svg" alt="">
+                            </div>
+                            <div class="text-[1.35rem] text-center">
+                                Ready to Publish
+                            </div>
+                            <div class="text-[#6c757d] text-base text-center">
+                                You can use this design as is, or you can make changes!
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col justify-center items-center p-4 gap-2">
+                            <div class="my-0 mx-auto w-12 h-12">
+                                <img class="h-full w-full" src="./heart-regular.svg" alt="">
+                            </div>
+                            <div class="text-[1.35rem] text-center">
+                                Made with Love
+                            </div>
+                            <div class="text-[#6c757d] text-base text-center">
+                                Is it really open source if it's not made with love?
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <!-- Container -->
+        <section id="portfolio">
+            <div class="grid grid-cols-3">
+                <a href="#" class="PORTFOLIO_HOVER_SOURCE relative block text-[#f4623a] underline-offset-auto">
+                    <!-- Image container -->
+                    <div>
+                        <img class="h-full w-full align-middle" src="./1.jpg" alt="">
+                    </div>
+                    <!-- Image caption -->
+                    <div
+                        class="PORTFOLIO_HOVER_TARGET hidden items-center justify-center flex-col w-full h-full absolute bottom-0 opacity-90 bg-[#f4623a] ease-linear text-center">
+                        <div class="text-sm uppercase text-white opacity-50">Category</div>
+                        <div class="text-base text-white">Project Name</div>
+                    </div>
+                </a>
+                <a href="#" class="PORTFOLIO_HOVER_SOURCE relative block text-[#f4623a] underline-offset-auto">
+                    <!-- Image container -->
+                    <div>
+                        <img class="h-full w-full align-middle" src="./2.jpg" alt="">
+                    </div>
+                    <!-- Image caption -->
+                    <div
+                        class="PORTFOLIO_HOVER_TARGET hidden items-center justify-center flex-col w-full h-full absolute bottom-0 opacity-90 bg-[#f4623a] ease-linear text-center">
+                        <div class="text-sm uppercase text-white opacity-50">Category</div>
+                        <div class="text-base text-white">Project Name</div>
+                    </div>
+                </a>
+                <a href="#" class="PORTFOLIO_HOVER_SOURCE relative block text-[#f4623a] underline-offset-auto">
+                    <!-- Image container -->
+                    <div>
+                        <img class="h-full w-full align-middle" src="./3.jpg" alt="">
+                    </div>
+                    <!-- Image caption -->
+                    <div
+                        class="PORTFOLIO_HOVER_TARGET hidden items-center justify-center flex-col w-full h-full absolute bottom-0 opacity-90 bg-[#f4623a] ease-linear text-center">
+                        <div class="text-sm uppercase text-white opacity-50">Category</div>
+                        <div class="text-base text-white">Project Name</div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid grid-cols-3">
+                <a href="#" class="PORTFOLIO_HOVER_SOURCE relative block text-[#f4623a] underline-offset-auto">
+                    <!-- Image container -->
+                    <div>
+                        <img class="h-full w-full align-middle" src="./4.jpg" alt="">
+                    </div>
+                    <!-- Image caption -->
+                    <div
+                        class="PORTFOLIO_HOVER_TARGET hidden items-center justify-center flex-col w-full h-full absolute bottom-0 opacity-90 bg-[#f4623a] ease-linear text-center">
+                        <div class="text-sm uppercase text-white opacity-50">Category</div>
+                        <div class="text-base text-white">Project Name</div>
+                    </div>
+                </a>
+                <a href="#" class="PORTFOLIO_HOVER_SOURCE relative block text-[#f4623a] underline-offset-auto">
+                    <!-- Image container -->
+                    <div>
+                        <img class="h-full w-full align-middle" src="./5.jpg" alt="">
+                    </div>
+                    <!-- Image caption -->
+                    <div
+                        class="PORTFOLIO_HOVER_TARGET hidden items-center justify-center flex-col w-full h-full absolute bottom-0 opacity-90 bg-[#f4623a] ease-linear text-center">
+                        <div class="text-sm uppercase text-white opacity-50">Category</div>
+                        <div class="text-base text-white">Project Name</div>
+                    </div>
+                </a>
+                <a href="#" class="PORTFOLIO_HOVER_SOURCE relative block text-[#f4623a] underline-offset-auto">
+                    <!-- Image container -->
+                    <div>
+                        <img class="h-full w-full align-middle" src="./6.jpg" alt="">
+                    </div>
+                    <!-- Image caption -->
+                    <div
+                        class="PORTFOLIO_HOVER_TARGET hidden items-center justify-center flex-col w-full h-full absolute bottom-0 opacity-90 bg-[#f4623a] ease-linear text-center">
+                        <div class="text-sm uppercase text-white opacity-50">Category</div>
+                        <div class="text-base text-white">Project Name</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Download -->
+        <!-- Container -->
+        <section id="download" class="py-32 bg-[#212529]">
+            <!-- Content -->
+            <div class="h-full px-32 flex flex-col justify-center items-center">
+                <div class="flex flex-col mx-16 px-6">
+                    <div class="flex flex-col justify-center items-center gap-4 mx-4 mb-8">
+                        <h1 class="text-white text-center font-semibold text-[2rem] leading-none">
+                            Free Download at Start Bootstrap!
+                        </h1>
+                    </div>
+                    <div class="flex flex-col justify-center items-center gap-4 mx-4">
+                        <a class="p-4 bg-white active:ring-4 active:ring-slate-400 text-black font-bold text-base border-none rounded-3xl uppercase mt-2"
+                            href="#">Download Now!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <!-- Container -->
+        <section id="contact" class="py-36 bg-white">
+            <!-- Content -->
+            <div class="h-full mx-12 px-32 flex flex-col justify-center items-center">
+                <div class="flex flex-col">
+                    <div class="flex flex-col justify-center items-center gap-4 px-6 mx-20">
+                        <h1 class="text-black text-center font-semibold text-[2rem] leading-none">
+                            Let's Get In Touch!
+                        </h1>
+                        <hr class="w-16 bg-[#f4623a] h-1 my-4" />
+                        <p class="text-[#6c757d] text-center text-base mb-2">
+                            Ready to start your next project with us? Send us a messages and we will get back to you as
+                            soon as possible!
+                        </p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center gap-4 mx-4">
+                        <form class="w-3/4">
+                            <!-- Fullname input -->
+                            <div class="relative mb-4">
+                                <input id="fullname" type="text"
+                                    class="float-inp px-3 py-4 border-[#ced4da] border-2 bg-clip-padding rounded-md leading-5 text-base w-full" />
+                                <label for="fullname" id="fullname-label"
+                                    class="cursor-text opacity-60 absolute inline-block top-0 left-0 px-3 py-4 text-black float-label">
+                                    Fullname
+                                </label>
+                            </div>
+                            <!-- Email input -->
+                            <div class="relative mb-4">
+                                <input id="email" type="text"
+                                    class="float-inp px-3 py-4 border-[#ced4da] border-2 bg-clip-padding rounded-md leading-5 text-base w-full" />
+                                <label for="email" id="email-label"
+                                    class="cursor-text opacity-60 absolute inline-block top-0 left-0 px-3 py-4 text-black float-label">
+                                    Email address
+                                </label>
+                            </div>
+                            <!-- Phonenumber input -->
+                            <div class="relative mb-4">
+                                <input id="phonenumber" type="text"
+                                    class="float-inp px-3 py-4 border-[#ced4da] border-2 bg-clip-padding rounded-md leading-5 text-base w-full" />
+                                <label for="phonenumber" id="phonenumber-label"
+                                    class="cursor-text opacity-60 absolute inline-block top-0 left-0 px-3 py-4 text-black float-label">
+                                    Phone number
+                                </label>
+                            </div>
+                            <!-- Message input -->
+                            <div class="relative mb-4">
+                                <textarea id="message" rows="6"
+                                    class="float-inp px-3 py-4 h-40 border-[#ced4da] border-2 bg-clip-padding rounded-md leading-5 text-base w-full"></textarea>
+                                <label for="message" id="message-label"
+                                    class="cursor-text opacity-60 absolute inline-block top-0 left-0 px-3 py-4 text-black float-label">
+                                    Message
+                                </label>
+                            </div>
+                        </form>
+                        <!-- Submit button -->
+                        <a class="inline-block text-center p-4 bg-[#f4623a] hover:bg-orange-700 active:ring-4 active:ring-orange-800 text-white font-normal w-3/4 text-lg border-none rounded-3xl uppercase"
+                            href="#">Submit</a>
+                        <!-- Footer contact -->
+                        <div class="flex flex-col justify-center items-center my-4">
+                            <div class="my-0 mx-auto w-8 h-8">
+                                <img class="h-full w-full" src="./mobile-screen-solid.svg" alt="">
+                            </div>
+                            <div class="my-3 font-normal">+1 (555) 123-4567</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12">
+        <div class="px-12 mx-7">
+            <div class="text-[#6c757d] text-center text-sm">
+                Copyright © 2022 - Company Name
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
